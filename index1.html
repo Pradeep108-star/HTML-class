@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            /* color: red */
+        }
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            color: red;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table>
+        <caption>Tour Packages</caption>
+        <thead>
+            <!-- table headings -->
+            <tr>
+                <th>Packages</th>
+                <th colspan="2">Destinations and Details</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- table content -->
+            <tr>
+                <td rowspan="2">Luxury</td>
+                <td>USA</td>
+                <td>1N,1D</td>
+            </tr>
+            <tr>
+                <td>UAE</td>
+                <td> 2N,1D</td>
+            </tr>
+            <tr>
+                <td>Family</td>
+                <td>Paris</td>
+                <td>2N 2D</td>
+            </tr>
+        </tbody>
+    </table>
