@@ -1,0 +1,59 @@
+day3.html :-
+
+<form action="">
+    <label for="fullName">Name</label>
+    <input type="text" id="fullName"><br><br>
+    Email: <input type="email"><br><br>
+    Age: <input type="number"><br><br>
+    Password: <input type="password" name="" id=""><br><br>
+    DOB: <input type="datetime-local" name="" id=""><br><br>
+    Vehicles you own:
+    Bike <input type="checkbox" name="" id="">
+    Car <input type="checkbox" name="" id="">
+    <br><br>
+    Gender:
+    Female: <input type="radio" name="gender" id="">
+    Male: <input type="radio" name="gender" id="">
+    upload Resume: <input type="file" name="" id="">
+
+
+
+    <datalist id="courses">
+        <option value="HTML"></option>
+        <option value="CSS"></option>
+        <option value="Angular"></option>
+    </datalist>
+    <input list="courses">
+
+
+
+    <form action="success.html" target="_blank" method="get">
+        <label for="fullName">Name</label>
+        <input type="text" id="fullName" name="fullName"><br><br>
+        Email: <input type="email"><br><br>
+        <br>
+        <button type="submit">submit the form</button>
+    
+
+
+
+
+
+        <h1>Forms</h1>
+    <form action="success.html" target="_blank" method="get">
+        <label for="fullName">Name</label>
+        <input type="text" id="fullName" name="fullName1" pattern="^[A-Z]+"
+            placeholder="use only upper case letters"><br><br>
+        Password: <input type="password" name="password2" id="">
+        <br>
+        <br>
+        <button type=" submit">submit the form to success page</button>
+        <br>
+        <br>
+        <button type="submit" formaction="save.html"> Submit the form to save data</button>
+        <br>
+        <button type="submit" formnovalidate> submit without validating</button>
+    </form>
+
+
+</form>
