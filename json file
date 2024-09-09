@@ -1,0 +1,8 @@
+javascript file i.e package-lock.json :-
+
+{
+  "name": "Project 1 HTML",
+  "lockfileVersion": 3,
+  "requires": true,
+  "packages": {}
+}
